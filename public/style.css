@@ -76,7 +76,7 @@ nav ul {
 .hero {
   min-height: 90vh;
   background: linear-gradient(rgb(0, 0, 0, 0.4), transparent),
-    url("https://gitlab.com/aristocat/artistocatt/-/raw/master/public/medias/presentation/Aristocat.mp4"); /* vidéo de couverture du site (body) */
+    url("https://gitlab.com/aristocat/artistocatt/-/raw/master/public/medias/presentation/Logo.png"); /* photo de couverture du site (body) */
   background-size: cover;
   background-position: bottom;
   color: #ffffff;
@@ -431,41 +431,4 @@ body {
 .span.a
 {
   display: inline;
-}
-
-#button {
-  display: inline-block;
-  background-color: #BDBDBB;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 4px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color .3s, 
-    opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
-}
-#button::after {
-  content: "\f077";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: #fff;
-}
-#button:hover {
-  cursor: pointer;
-  background-color: #333;
-}
-#button:active {
-  background-color: #555;
-}
-#button.show {
-  opacity: 1;
-  visibility: visible;
 }
